@@ -6,7 +6,7 @@ swiper image {
   height: 100%;
 }
 
-
+/* 九宫格 */
 .grid-list {
   display: flex;
   flex-wrap: wrap; 
