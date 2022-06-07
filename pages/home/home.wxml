@@ -4,6 +4,7 @@
     <image src="{{item.image}}"></image>
   </swiper-item>
 </swiper>
+
 <!-- 九宫额区域 -->
 <view class="grid-list">
   <view class="grid-item" wx:for="{{gridList}}" wx:key="id">
@@ -11,6 +12,7 @@
     <text>{{item.name}}</text>
   </view>
 </view>
+
 <!-- 图片区域 -->
 <view class="img-box">
   <image src="/images/link-01.png" mode="widthFix"></image>
